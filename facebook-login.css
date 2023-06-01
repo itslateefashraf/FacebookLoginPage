@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.input-label{
+    display: block;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f2f5;
+
+  
+}
+.col2{
+    border: 1px solid rgb(227, 224, 224);
+    width: 360px;
+    height: 300px;
+    /* margin-left: 300px; */
+    text-align: center;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: white;
+
+}
+input{
+    width: 325px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    height: 20px; 
+    padding: 15px;
+    border: 1px solid rgb(235, 222, 199) ;
+    
+}
+input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.password{
+    margin: -20px;
+}
+/* .input::placeholder{
+    padding: 20px;
+    box-shadow: 20px ,20px ,20px, 0;
+} */
+.login{
+    width: 353px;
+    height: 48px;
+    margin-bottom: 20px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #1877f2;
+    border-radius: 4px;
+    outline: none;
+    border: none;  
+    cursor: pointer;  
+}
+.new-button{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 700;
+    background-color: #42b72a;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.new-button:hover {
+         background-color:#48a835 ;
+}
+.forgotten{
+    color:#1877f2;
+    font-size: 18px;
+    
+}
+.forgotten:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.facebook{
+    width: 280px;
+    margin-left: 40px;
+
+    
+}
+
+
+.fb-title{
+    font-size: 30px;
+    width: 650px;
+
+
+
+}
+.para{
+    margin: 0 70px;
+}
